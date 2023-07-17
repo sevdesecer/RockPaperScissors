@@ -21,5 +21,3 @@ def is_win(player, opponent):
 result = play()
 print("Result ---> " + result)
 
-
-
