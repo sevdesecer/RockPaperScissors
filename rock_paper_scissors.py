@@ -1,5 +1,4 @@
 import random
-
 def play():
     player = input("What's your choice? 'r' for Rock, 'p' for Paper, 's' for Scissors.\n")
     computer = random.choice(['r', 'p', 's'])
@@ -20,4 +19,3 @@ def is_win(player, opponent):
 
 result = play()
 print("Result ---> " + result)
-
